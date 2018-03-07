@@ -1,3 +1,16 @@
 body {
-    background-color: blue
+    background-image: URL(../images/nyt.jpg);
+    background-size: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
+#wellSection {
+    border: solid;
+    border-color: rgb(0, 4, 255);
+    float: center;
+}
+
+
