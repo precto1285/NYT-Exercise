@@ -1,16 +1,33 @@
 body {
-    background-image: URL(../images/nyt.jpg);
-    background-size: 100%;
+    background-color: whitesmoke;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    color: black;
+    
+    
+}
+
+
+
+h3 {
+    text-align: center;
+}
+
+label {
+    color:black;
+}
+
+.container {
+    opacity: 0.9;
 }
 
 #wellSection {
     border: solid;
-    border-color: rgb(0, 4, 255);
+    border-color:black;
     float: center;
+
 }
 
 
