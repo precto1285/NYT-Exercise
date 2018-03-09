@@ -6,6 +6,8 @@ body {
     color: rgb(18, 193, 247);
     background-image:url("images/nyt.jpg");
     background-size: 100%; 
+    border: ridge;
+    
 }
 
 
@@ -13,13 +15,17 @@ body {
 h3 {
     text-align: center;
     background-color:grey;
-    opacity:0.7;
+    opacity:0.8;
+    border: ridge;
+    border-radius: 35px;
 }
 
 label {
     background-color:grey;
     color:whitesmoke;
     font-style: inherit;
+    border: ridge;
+    border-radius: 15px;
 }
 
 .container {
@@ -32,7 +38,11 @@ label {
     opacity: 0.9;
     border: solid;
     border-color:whitesmoke;
+    color:white;
     float: center;
+    border: ridge;
+    padding:5px;
+    border-radius: 20px;
 
 }
 #footer {
@@ -40,6 +50,15 @@ label {
     width:auto;
     opacity: 1.0;
     padding-bottom: 30px;
+    border: ridge;
+    border-radius: 35px;
+}
+.jumbotron{
+    background-image: url(images/nytHeader.jpg);
+    background-size:100%;
+    opacity: 0.7;
+    border: ridge;
+    border-radius: 35px;
 }
 
 
