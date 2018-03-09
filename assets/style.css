@@ -1,33 +1,45 @@
 body {
-    background-color: whitesmoke;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    color: black;
-    
-    
+    color: rgb(18, 193, 247);
+    background-image:url("images/nyt.jpg");
+    background-size: 100%; 
 }
 
 
 
 h3 {
     text-align: center;
+    background-color:grey;
+    opacity:0.7;
 }
 
 label {
-    color:black;
+    background-color:grey;
+    color:whitesmoke;
+    font-style: inherit;
 }
 
 .container {
-    opacity: 0.9;
+    
+    opacity: 1.0;
 }
 
 #wellSection {
+    background-color:navy;
+    opacity: 0.9;
     border: solid;
-    border-color:black;
+    border-color:whitesmoke;
     float: center;
 
+}
+#footer {
+    background-color:black;
+    width:auto;
+    opacity: 1.0;
+    padding-bottom: 30px;
 }
 
 
