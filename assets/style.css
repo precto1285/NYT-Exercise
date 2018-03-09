@@ -1,12 +1,12 @@
 body {
+    size: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    color: rgb(18, 193, 247);
+    color: orange;
     background-image:url("images/nyt.jpg");
-    background-size: 100%; 
-    border: ridge;
+    background-size: 3.3%; 
     
 }
 
@@ -15,7 +15,7 @@ body {
 h3 {
     text-align: center;
     background-color:grey;
-    opacity:0.8;
+    opacity:0.9;
     border: ridge;
     border-radius: 35px;
 }
@@ -56,7 +56,7 @@ label {
 .jumbotron{
     background-image: url(images/nytHeader.jpg);
     background-size:100%;
-    opacity: 0.7;
+    opacity: 0.9;
     border: ridge;
     border-radius: 35px;
 }
