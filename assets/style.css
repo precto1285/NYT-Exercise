@@ -5,8 +5,8 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     color: orange;
-    background-image:url("images/nyt.jpg");
-    background-size: 3.3%; 
+    background-color: #aaaaaa;
+    /* background-size: 3.3%;  */
     
 }
 
@@ -27,7 +27,9 @@ label {
     border: ridge;
     border-radius: 15px;
 }
-
+.btn {
+    border-radius: 35px;
+}
 .container {
     
     opacity: 1.0;
@@ -60,5 +62,7 @@ label {
     border: ridge;
     border-radius: 35px;
 }
-
+.form-control {
+    border-radius: 35px;
+}
 
