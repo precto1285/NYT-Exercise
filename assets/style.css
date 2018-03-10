@@ -5,8 +5,8 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     color: orange;
-    background-color: #aaaaaa;
-    /* background-size: 3.3%;  */
+    background-image: url("images/seamless_paper_texture.png");
+    background-repeat: repeat;
     
 }
 
@@ -57,7 +57,9 @@ label {
 }
 .jumbotron{
     background-image: url(images/nytHeader.jpg);
-    background-size:100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 170px;
     opacity: 0.9;
     border: ridge;
     border-radius: 35px;
